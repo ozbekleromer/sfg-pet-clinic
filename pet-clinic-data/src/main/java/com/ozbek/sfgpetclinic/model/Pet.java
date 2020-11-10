@@ -3,8 +3,7 @@ package com.ozbek.sfgpetclinic.model;
 import java.time.LocalDate;
 
 /**
- * @author ozbek
- * @date 2020-11-08 23:30
+ * @author ozbek on 2020-11-08 23:30
  */
 public class Pet {
 
