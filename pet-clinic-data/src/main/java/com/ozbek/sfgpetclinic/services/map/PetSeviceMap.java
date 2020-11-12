@@ -1,14 +1,14 @@
 package com.ozbek.sfgpetclinic.services.map;
 
 import com.ozbek.sfgpetclinic.model.Pet;
-import com.ozbek.sfgpetclinic.services.CrudService;
+import com.ozbek.sfgpetclinic.services.PetService;
 
 import java.util.Set;
 
 /**
  * created by ozbek on 2020-11-11
  */
-public class PetSeviceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetSeviceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
